@@ -3,6 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
+<<<<<<< HEAD
   badges = []
     attendees.each do |speaker|
       badges << badge_maker(speaker)
@@ -28,4 +29,21 @@ def printer(attendees)
   assign_rooms(attendees).each do |assigned|
     puts assigned
   end
+=======
+  badge_messages = []
+    attendees.each do |speaker|
+      puts badge_messages << batch_badge_creator(attendees)
+  end
+    return badge_messages
+end
+
+
+def assign_rooms
+  
+end
+
+
+def printer
+  
+>>>>>>> e2436a787d3383ed853177809e2b4cca2788e405
 end
